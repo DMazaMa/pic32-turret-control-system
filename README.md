@@ -1,5 +1,5 @@
 # PIC32 Turret Control System
-**Manual and Automatic Turret Control using PIC32MX230F064D**
+**Automated & Manual Turret System with PIC32 Microcontroller**
 
 ## Overview
 This repository contains the implementation of a **manual and automatic turret control system** developed using the **PIC32MX230F064D microcontroller**.  
@@ -30,31 +30,6 @@ The system integrates multiple peripherals such as **ultrasonic sensing, PWM-bas
 - **UART Interface:** Debugging and mode selection
 - **Push Button:** Manual firing trigger
 - **Laser Module:** Visual firing indicator
-
----
-
-## Project Structure
-.
-├── drivers
-│ ├── hcsr04.c / hcsr04.h # Ultrasonic sensor driver
-│ ├── motor.c / motor.h # PWM motor control
-│ ├── ModuloServo.c / ModuloServo.h # Servo control module
-│ ├── potenciometro.c / .h # ADC joystick driver
-│ ├── uart.c / uart.h # UART communication
-│ ├── Retardos.c / Retardos.h # Timing and delays
-│ ├── Pic32Ini.c / Pic32Ini.h # MCU initialization
-│ ├── mainfinal.c # Main application logic
-│ └── Makefile
-│
-├── test
-│ ├── main_joystick.c # Joystick test
-│ ├── main_prueba_motor.c # Motor test
-│ ├── mainprueba.c # General tests
-│ ├── mainservos.c # Servo tests
-│ └── mainultrasonidos.c # Ultrasonic sensor tests
-│
-└── README.md
-
 
 ---
 
